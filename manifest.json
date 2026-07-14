@@ -2,12 +2,12 @@
   "item": {
     "id": "me.cjack.b2048n",
     "name": "2048N",
-    "description": "2048小游戏（改自“更好的2048”）；一款小米手环10移植+VelaOS环境深度优化版，相较原版更流畅，更省电，更稳定。包含了正式版动画效果+默认累加积分模式。后续计划更新更多内容，致力于打造最成熟的Vela原生小游戏。",
+    "description": "2048小游戏（改自“更好的2048”）；一款小米手环10移植+VelaOS环境深度优化版，相较原版更流畅，更省电，更稳定。致力于打造最成熟的原生快应用。后续计划更新更多内容。",
     "preview": [
-      "src/common/head1:5.jpg"
+      "src/common/head15.jpg"
     ],
     "icon": "src/common/logo.png",
-    "cover": "src/common/head1:5.jpg",
+    "cover": "src/common/head15.jpg",
     "source_url": "https://github.com/CJackHwang/2048N_AstroBox_Release",
     "author": [
       {
