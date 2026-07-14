@@ -3,12 +3,12 @@
     "id": "me.cjack.b2048n",
     "restype": "quick_app",
     "name": "2048N",
-    "description": "2048小游戏（改自“更好的2048”）；一款小米手环10移植+VelaOS环境深度优化版，相较原版更流畅，更省电，更稳定。致力于打造最成熟的原生快应用。后续计划更新更多内容。",
+    "description": "2048小游戏（改自“更好的2048”）；一款小米手环10移植+VelaOS环境深度优化版，相较原版更流畅，更省电，更稳定。",
     "preview": [
-      "src/common/head15.jpg"
+      "src/common/head15.png"
     ],
     "icon": "src/common/logo.png",
-    "cover": "src/common/head15.jpg",
+    "cover": "src/common/head15.png",
     "author": [
       {
         "name": "CJackHwang",
@@ -25,11 +25,11 @@
   ],
   "downloads": {
     "xmb10": {
-      "version": "1.0.3",
+      "version": "1.0.0",
       "file_name": "dist/me.cjack.b2048n.release.1.0.3.rpk"
     },
     "xmb10nfc": {
-      "version": "1.0.3",
+      "version": "1.0.0",
       "file_name": "dist/me.cjack.b2048n.release.1.0.3.rpk"
     }
   },
