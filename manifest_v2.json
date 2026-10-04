@@ -3,7 +3,7 @@
     "id": "me.cjack.b2048n",
     "restype": "quick_app",
     "name": "2048N",
-    "description": "2048N小游戏（改自“更好的2048”）；一款小米手环VelaOS环境深度优化版的2048，相较原版更流畅，更省电，更稳定，适配范围更广。v1.1.0起已经适配9/9pro以后的全部手环设备。免费游玩，如果觉得做的还不错可以给我打赏支持一下！",
+    "description": "2048N小游戏（改自“更好的2048”）；一款小米手环VelaOS环境深度优化版的2048，相较原版更流畅，更省电，更稳定，适配范围更广。\n\n最近更新：\n2026.10.04 - v1.1.1修复小米手环11上加载页图标显示异常的问题（未在其他设备上测试 影响面未知）\n\n更新历史：\n2026.10.04 - v1.1.0起已经适配9/9pro、10/10pro以及11的全部手环设备。\n\n开发不易，完全免费，如果觉得做的还不错可以给我打赏支持一下！",
     "preview": [
       "media/1000133648.png",
       "media/1000133632.jpg",
@@ -34,39 +34,39 @@
   ],
   "downloads": {
     "xmb10": {
-      "version": "1.1.0",
-      "file_name": "downloads/me.cjack.b2048n.release.1.1.0.rpk",
-      "versionCode": 114516
+      "version": "1.1.1",
+      "file_name": "downloads/me.cjack.b2048n.release.1.1.1.rpk",
+      "versionCode": 114519
     },
     "xmb10nfc": {
-      "version": "1.1.0",
-      "file_name": "downloads/me.cjack.b2048n.release.1.1.0.rpk",
-      "versionCode": 114516
+      "version": "1.1.1",
+      "file_name": "downloads/me.cjack.b2048n.release.1.1.1.rpk",
+      "versionCode": 114519
     },
     "xmb10p": {
-      "version": "1.1.0",
-      "file_name": "downloads/me.cjack.b2048n.release.1.1.0.rpk",
-      "versionCode": 114516
+      "version": "1.1.1",
+      "file_name": "downloads/me.cjack.b2048n.release.1.1.1.rpk",
+      "versionCode": 114519
     },
     "xmb11": {
-      "version": "1.1.0",
-      "file_name": "downloads/me.cjack.b2048n.release.1.1.0.rpk",
-      "versionCode": 114516
+      "version": "1.1.1",
+      "file_name": "downloads/me.cjack.b2048n.release.1.1.1.rpk",
+      "versionCode": 114519
     },
     "xmb11nfc": {
-      "version": "1.1.0",
-      "file_name": "downloads/me.cjack.b2048n.release.1.1.0.rpk",
-      "versionCode": 114516
+      "version": "1.1.1",
+      "file_name": "downloads/me.cjack.b2048n.release.1.1.1.rpk",
+      "versionCode": 114519
     },
     "xmb9": {
-      "version": "1.1.0",
-      "file_name": "downloads/me.cjack.b2048n.release.1.1.0.rpk",
-      "versionCode": 114516
+      "version": "1.1.1",
+      "file_name": "downloads/me.cjack.b2048n.release.1.1.1.rpk",
+      "versionCode": 114519
     },
     "xmb9p": {
-      "version": "1.1.0",
-      "file_name": "downloads/me.cjack.b2048n.release.1.1.0.rpk",
-      "versionCode": 114516
+      "version": "1.1.1",
+      "file_name": "downloads/me.cjack.b2048n.release.1.1.1.rpk",
+      "versionCode": 114519
     }
   },
   "ext": {}
