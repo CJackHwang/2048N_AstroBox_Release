@@ -3,7 +3,7 @@
     "id": "me.cjack.b2048n",
     "restype": "quick_app",
     "name": "2048N",
-    "description": "2048N小游戏（改自“更好的2048”）；一款小米手环VelaOS环境深度优化版的2048，相较原版更流畅，更省电，更稳定，适配范围更广。\n\n最近更新：\n2026.10.04 - v1.1.1修复小米手环11上加载页图标显示异常的问题（未在其他设备上测试 影响面未知）\n\n更新历史：\n2026.10.04 - v1.1.0起已经适配9/9pro、10/10pro以及11的全部手环设备。\n\n开发不易，完全免费，如果觉得做的还不错可以给我打赏支持一下！",
+    "description": "2048N小游戏（改自“更好的2048”）；一款小米手环VelaOS环境深度优化版的2048，相较原版更流畅，更省电，更稳定，适配范围更广。\n\n---\n\n## 2048N v1.2.0 更新内容\n\n本次以 1.1.1 为基线，补上此前发布说明没有展开的适配、动画和存档细节。版本号为 **1.2.0**，`versionCode` 为 **114520**。\n\n### 设备适配与显示\n\n- 延续支持小米手环 9、9 Pro、10、10 Pro、11，并按胶囊屏与 Pro 矩形屏分别适配布局。\n- 修正手环 9 上方块与背景行距不一致造成的漂移；调整手环 10/11 的页面高度，避免多余的纵向滚动。\n- 补充 Pro 界面适配：棋盘、分数和按钮重新排布；静态网格作为底图，减少移动方块被空格占位层遮挡的情况。\n- 恢复应用图标为原始的 **192×192 透明 PNG** 素材，改善图标边缘清晰度。\n\n### 动画与性能\n\n- 提升 9 Pro 动画兼容性：动画接口异常时安全完成本次移动并释放输入，避免后续滑动失效。\n- 合并同一次移动中的分数和最大方块更新，减少重复的界面状态刷新。\n- 将动画状态轮询间隔调整为 32ms，并跟踪运行中的动画，减少密集移动时的重复查询开销；未改变方块移动的主要动画节奏。\n\n### 启动、存档与稳定性\n\n- 启动时等待存档和设备信息就绪后再显示页面，避免深色模式下先显示浅色界面再切换。\n- 修复首次启动、读档失败或存档无效时，新局未及时保存的问题；加强存档校验，并恢复游戏结束状态和最高分约束。\n- 应用切后台或退出时，先结算动画中的移动再保存，减少进度丢失。\n- 串行处理异步存档写入，只保留最新待写快照，避免旧写入覆盖新状态。\n- 隔离过期页面回调，避免延迟读档或设备信息回调覆盖新页面状态。\n\n### 开发与维护\n\n- 更新构建依赖，将 Node.js 最低版本要求调整为 **20.19.0**。\n- 增加自动回归测试，覆盖存档恢复、动画生命周期、异步写入、过期回调和 2,500 组方向移动规则。\n\n**Full Changelog**: https://github.com/CJackHwang/2048N/compare/v1.1.1...v1.2.0\n\n---\n\n开发不易，完全免费，如果觉得做的还不错可以给我打赏支持一下！",
     "preview": [
       "media/1000133648.png",
       "media/1000133632.jpg",
@@ -34,39 +34,39 @@
   ],
   "downloads": {
     "xmb10": {
-      "version": "1.1.1",
-      "file_name": "downloads/me.cjack.b2048n.release.1.1.1.rpk",
-      "versionCode": 114519
+      "version": "1.2.0",
+      "file_name": "downloads/me.cjack.b2048n.release.1.2.0.rpk",
+      "versionCode": 114520
     },
     "xmb10nfc": {
-      "version": "1.1.1",
-      "file_name": "downloads/me.cjack.b2048n.release.1.1.1.rpk",
-      "versionCode": 114519
+      "version": "1.2.0",
+      "file_name": "downloads/me.cjack.b2048n.release.1.2.0.rpk",
+      "versionCode": 114520
     },
     "xmb10p": {
-      "version": "1.1.1",
-      "file_name": "downloads/me.cjack.b2048n.release.1.1.1.rpk",
-      "versionCode": 114519
+      "version": "1.2.0",
+      "file_name": "downloads/me.cjack.b2048n.release.1.2.0.rpk",
+      "versionCode": 114520
     },
     "xmb11": {
-      "version": "1.1.1",
-      "file_name": "downloads/me.cjack.b2048n.release.1.1.1.rpk",
-      "versionCode": 114519
+      "version": "1.2.0",
+      "file_name": "downloads/me.cjack.b2048n.release.1.2.0.rpk",
+      "versionCode": 114520
     },
     "xmb11nfc": {
-      "version": "1.1.1",
-      "file_name": "downloads/me.cjack.b2048n.release.1.1.1.rpk",
-      "versionCode": 114519
+      "version": "1.2.0",
+      "file_name": "downloads/me.cjack.b2048n.release.1.2.0.rpk",
+      "versionCode": 114520
     },
     "xmb9": {
-      "version": "1.1.1",
-      "file_name": "downloads/me.cjack.b2048n.release.1.1.1.rpk",
-      "versionCode": 114519
+      "version": "1.2.0",
+      "file_name": "downloads/me.cjack.b2048n.release.1.2.0.rpk",
+      "versionCode": 114520
     },
     "xmb9p": {
-      "version": "1.1.1",
-      "file_name": "downloads/me.cjack.b2048n.release.1.1.1.rpk",
-      "versionCode": 114519
+      "version": "1.2.0",
+      "file_name": "downloads/me.cjack.b2048n.release.1.2.0.rpk",
+      "versionCode": 114520
     }
   },
   "ext": {}
